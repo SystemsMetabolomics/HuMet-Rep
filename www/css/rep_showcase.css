@@ -1,0 +1,150 @@
+.mt_showcase_link{
+  background-color:white;
+}
+
+.mt_showcase_link:hover{
+box-shadow:4px 4px 2px 0 #ddd
+}
+
+
+/* showcases */
+.mt_showcase_panel-content{
+margin:10px;
+display:block;
+float:left;
+background:white;
+border-radius:5px;
+}
+.mt_showcase_panel-content:hover{
+  box-shadow: 4px 4px 2px 0 grey;
+}
+
+
+.mt_showcase_panel-body{
+padding:2px;
+color:inherit;
+font-size:12px;
+font-weight:500;
+}
+
+.mt_showcase_panel-header{
+padding:2px;
+text-align:center;
+font-size:24px;
+font-weight:500;
+color:inherit;
+border-top-right-radius:inherit;
+border-top-left-radius:inherit;
+}
+
+.mt_showcase_panel-footer{
+padding:2px;
+text-align:center;
+color:inherit;
+font-size:12px;
+font-weight:500;
+border-bottom-right-radius:inherit;
+border-bottom-left-radius:inherit;
+}
+
+.mt_showcase_panel-btn{
+font-size:12px;
+font-weight:500;
+padding:5px 10px;
+}
+
+@media (max-width: 768px){
+  .mt_showcase_panel-content{
+    width:100%;
+  }
+}
+@media (min-width: 769px){
+    .mt_showcase_panel-content{
+    width:max-content;
+  }
+}
+
+/* new showcase */
+.mt_showcase-wrapper{
+  width:100%;
+  padding:10px;
+  display:flex;
+  height:auto;
+  margin:0 auto;
+}
+.mt_showcase-img{
+  display:block;
+  max-width:100%;
+  margin:0 auto;
+  user-select:none;
+  overflow:hidden; 
+  max-height:100%;
+}
+.mt_showcase-body{
+  width:100%;
+  height:auto;
+  border-radius:5px;
+  margin:10px;
+  display:flex;
+  flex-direction:column;
+}
+.mt_showcase-content{
+  width:100%;
+  height:100%;
+}
+.mt_showcase-descr{
+  border-radius:5px;
+  text-align:center; 
+  font-weight:600; 
+  overflow:hidden; 
+  color:white; 
+  flex:1;
+}
+
+.mt_showcase-title{
+  font-size:18px; 
+}
+.mt_showcase-subtitle{
+  border-radius:0 0 5px 5px;
+  font-size:12px; 
+}
+
+.mt_showcase-body:hover{
+  box-shadow: 4px 4px 2px 0 #ddd;
+}
+
+.mt_showcase-btn{
+  background:transparent;
+  color:grey;
+  font-weight:700;
+  padding:5px;
+  border:none;
+}
+.mt_showcase-btn:hover{
+  color:#d2310b;
+  border:none;
+  background:transparent;
+  position:relative;
+  top:-4px;
+  left:-4px;
+}
+
+@media (max-width: 768px){
+  .mv_showcase-lg{
+    width:100% !important;
+    display:block;
+    float:left;
+  }
+}
+
+@media (min-width: 769px){
+    .mv_showcase-lg{
+  }
+}
+
+
+/* Showcase box */
+
+.showcase-box{
+  border:1px solid #ddd !important;
+}

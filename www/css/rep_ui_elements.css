@@ -1,0 +1,128 @@
+
+
+/* rep card */
+
+/* grey-card */
+.rep_card_header-grey{
+  background:#ccd1d9;
+  color:grey;
+  text-align:center;
+  font-size:16px;
+  padding:10px;
+}
+
+.rep_card_body-grey{
+  background:#dfdfe1;
+  color:grey;
+  font-weight: bold;
+   position: relative;
+}
+
+
+.rep_card_footer-grey{
+  background:#dfdfe1;
+  color:grey;
+  font-weight: bold;
+}
+
+/* dark-card */
+.rep_card_header-dark{
+  background:#444c57;
+  color:white;
+  text-align:center;  
+  font-size:16px;
+  padding:10px;
+}
+
+.rep_card_body-dark{
+  background:#444c57;
+  color:white;
+  font-weight: bold;
+}
+
+
+.rep_card_footer-dark{
+  background:#444c57;
+  color:white;
+  font-weight: bold;
+}
+
+/* blue-card */
+.rep_card_header-blue{
+  background:#0B373B;
+  color:white;
+  text-align:center;
+    font-size:16px;
+  padding:10px;
+}
+
+.rep_card_body-blue{
+  background:#274B63;
+  color:white;
+  font-weight: bold;
+}
+
+
+.rep_card_footer-blue{
+  background:#274B63;
+  color:white;
+  font-weight: bold;
+}
+
+.rep_card_header-red{
+  background:#8A0A3D;
+  color:white;
+  text-align:center;
+    font-size:16px;
+  padding:10px;
+}
+
+/* red-card */
+.rep_card_body-red{
+  background:#722641;
+  color:white;
+  font-weight: bold;
+}
+
+
+.rep_card_footer-red{
+  background:#722641;
+  color:white;
+  font-weight: bold;
+}
+
+/* transparent-card */
+.rep_card_header-transparent{
+  background:transparent;
+  color:black;
+  text-align:center;
+  font-size:16px;
+  padding:10px;
+}
+
+.rep_card_body-transparent{
+  background:transparent;
+  color:black;
+  font-weight: bold;
+   position: relative;
+}
+
+
+.rep_card_footer-transparent{
+  background:transparent;
+  color:black;
+  font-weight: bold;
+}
+
+
+
+.rep_card-label{
+  background:#d2310b;
+  color:black;
+  padding:5px;
+  float:right;
+  width:max-content;
+  border-radius:10px;
+  font-size:12px;
+  margin:5px;
+}

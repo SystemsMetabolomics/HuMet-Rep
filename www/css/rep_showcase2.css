@@ -1,0 +1,33 @@
+.showcase-title{
+  height:30px;
+  text-align:center;
+}
+
+
+.showcase-box_img{
+  max-height:200px; 
+  max-width:100%;
+  display:block; 
+  margin-left:auto; 
+  margin-right:auto;
+  text-align:center
+}
+.showcase-box_title{
+  padding:10px; 
+  position:relative; 
+  top:-10px; 
+  border-radius:5px;
+}
+
+.showcase-question{
+  text-align:center;
+  font-weight:700; 
+  color:#d2310b;
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.showcase-question_box{
+padding:10px;
+}

@@ -1,0 +1,20 @@
+.main-sidebar{position:fixed !important;}
+
+.skin-black-light .sidebar-menu>li.active>a, .skin-black-light .sidebar-menu>li:hover>a{
+  background:#505b6b; color:white;border-left:4px solid #d2310b;
+}
+
+
+.skin-black-light .sidebar-menu .treeview-menu>li.active>a{
+      background:#505b6b; font-weight:800; border-left:4px solid #505b6b;color:white;
+}
+
+.skin-black-light .sidebar-menu .treeview-menu>li>a{
+    background:#2c323a;color:white;padding-left:20px;
+}
+.skin-black-light .sidebar-menu .treeview-menu>li>a:hover{
+  color:black; border-left:2px solid #d2310b;background:#505b6b;
+}
+.treeview-menu{
+  padding:0;
+}

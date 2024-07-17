@@ -1,0 +1,146 @@
+.nav-tabs-custom>.nav-tabs>li.active:hover>a, .nav-tabs-custom>.nav-tabs>li.active>a{
+  background-color:#ddd;
+  color:black;
+  font-weight:800;
+}
+
+
+/* Box header title  */
+.mt_design .box-title{
+  flex:1;
+  padding:5px;
+}
+
+/* mt_box */
+.maximize{
+  position:fixed;
+  height:100% !important;
+  width:100% !important;
+  top:50px;
+  left:0;
+  z-index:2000;
+}
+.mt_boxopt-content{
+    display:block;
+    height:100%;
+    padding:5px;
+    float:left;
+  }
+  
+.mt_boxopt-body{
+    display:block;
+    height:inherit;
+  }
+  
+.mt_boxopt-item{
+    padding:5px;
+  }
+  
+@media (min-width: 1025px){
+  .mt_boxopt-btn{
+    display:none;
+  }
+    .mt_boxopt-item{
+    display:flex;
+    float:left;
+    height:inherit;
+  }
+}
+@media (max-width: 1024px){
+  .mt_boxopt-item{
+    display:block;
+  }
+  
+  .mt_boxopt-content:hover{
+    background:#ddd;
+    color:black;
+  }
+  .mt_boxopt-content:hover .mt_boxopt-body {
+    display:block;
+    position:absolute;
+    background:#ddd;
+    float:none;
+    right:0;
+    padding:5px;
+    height:fit-content;
+    color:grey;
+  }
+  .mt_boxopt-body{
+    display:none;
+  }
+}
+
+
+/* box tabs */
+
+.mt_design .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  border-top:1px solid #d2310b;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  border-bottom:3px solid #ddd;
+  border-radius:5px 5px 0 0;
+  background-color:#ddd;
+  color:black;
+}
+.mt_design .nav-tabs-custom>.nav-tabs>li.active{
+  border-top:1px solid #d2310b;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  border-bottom:3px solid #ddd;
+  border-radius:5px 5px 0 0;
+  background-color:#ddd;
+  color:black;
+}
+
+.mt_design .nav-tabs-custom>.nav-tabs>li.active:hover>a, .nav-tabs-custom>.nav-tabs>li.active>a{
+  background:transparent;
+  border:none;
+}
+
+.mt_design .nav-tabs-custom>.nav-tabs>li:not(.active)>a:active, .nav-tabs-custom>.nav-tabs>li:not(.active)>a:focus, .nav-tabs-custom>.nav-tabs>li:not(.active)>a:hover{
+  color:black;
+  background-color:#ddd;
+  border-radius:5px 5px 0 0;
+  border-top:1px solid grey;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+}
+
+.mt_design .nav-tabs-custom>.tab-content{
+  padding:0;
+}
+
+/* Tabbox style */
+.mt_design .nav-tabs-custom{
+  background:#ddd;
+  box-shadow:; 5px 5px 5px 5px grey;
+}
+
+
+/* Tabbox header */
+.mt_design .nav-tabs-custom>.nav-tabs{
+  padding:5px 5px 0 5px;
+  border-bottom-color:grey;
+}
+
+
+/* Tabbox submenu */
+.mt_design .mt_tabbox-submenu{
+  background: #ddd;
+  font-size:12px;
+  padding: 10px 5px;
+  display:flex;
+}
+
+/* Tabbox content */
+.mt_design .mt_tabbox-content{
+  padding:5px;
+}
+
+
+/* showcase box*/
+
+.mt_box-sc_body{
+  border:1px solid #ddd;
+  box-shadow: grey 5px 5px 5px;
+}

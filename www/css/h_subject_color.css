@@ -1,0 +1,110 @@
+
+/* subject 1 */
+.checkbox-bs-danger input[type="checkbox"][value="1"]:checked + label::before{
+  background:#000000; border-color:#000000;
+}
+.checkbox-danger input[type="checkbox"][value="1"]:checked + label::before{
+  background:#000000; border-color:#000000;
+}
+
+/* subject 2 */
+.checkbox-bs-danger input[type="checkbox"][value="2"]:checked + label::before{
+  background:#696969; border-color:#696969;
+}
+.checkbox-danger input[type="checkbox"][value="2"]:checked + label::before{
+  background:#696969; border-color:#696969;
+}
+
+/* subject 3 */
+.checkbox-bs-danger input[type="checkbox"][value="3"]:checked + label::before{
+  background:#d3d3d3; border-color:#d3d3d3;
+}
+.checkbox-danger input[type="checkbox"][value="3"]:checked + label::before{
+  background:#d3d3d3; border-color:#d3d3d3;
+}
+
+/* subject 4 */
+.checkbox-bs-danger input[type="checkbox"][value="4"]:checked + label::before{
+  background:#ffff00; border-color:#ffff00;
+}
+.checkbox-danger input[type="checkbox"][value="4"]:checked + label::before{
+  background:#ffff00; border-color:#ffff00;
+}
+
+/* subject 5 */
+.checkbox-bs-danger input[type="checkbox"][value="5"]:checked + label::before{
+  background:#8b4513; border-color:#8b4513;
+}
+.checkbox-danger input[type="checkbox"][value="5"]:checked + label::before{
+  background:#8b4513; border-color:#8b4513;
+}
+/* subject 6 */
+.checkbox-bs-danger input[type="checkbox"][value="6"]:checked + label::before{
+  background:#d2b48c; border-color:#d2b48c;
+}
+.checkbox-danger input[type="checkbox"][value="6"]:checked + label::before{
+  background:#d2b48c; border-color:#d2b48c;
+}
+/* subject 7 */
+.checkbox-bs-danger input[type="checkbox"][value="7"]:checked + label::before{
+  background:#007000; border-color:#007000;
+}
+.checkbox-danger input[type="checkbox"][value="7"]:checked + label::before{
+  background:#007000; border-color:#007000;
+}
+/* subject 8 */
+.checkbox-bs-danger input[type="checkbox"][value="8"]:checked + label::before{
+  background:#00ff00; border-color:#00ff00;
+}
+.checkbox-danger input[type="checkbox"][value="8"]:checked + label::before{
+  background:#00ff00; border-color:#00ff00;
+}
+/* subject 9 */
+.checkbox-bs-danger input[type="checkbox"][value="9"]:checked + label::before{
+  background:#40e0d0; border-color:#40e0d0;
+}
+.checkbox-danger input[type="checkbox"][value="9"]:checked + label::before{
+  background:#40e0d0; border-color:#40e0d0;
+}
+/* subject 10 */
+.checkbox-bs-danger input[type="checkbox"][value="10"]:checked + label::before{
+  background:#ff00ff; border-color:#ff00ff;
+}
+.checkbox-danger input[type="checkbox"][value="10"]:checked + label::before{
+  background:#ff00ff; border-color:#ff00ff;
+}
+/* subject 11 */
+.checkbox-bs-danger input[type="checkbox"][value="11"]:checked + label::before{
+  background:#87ceeb; border-color:#87ceeb;
+}
+.checkbox-danger input[type="checkbox"][value="11"]:checked + label::before{
+  background:#87ceeb; border-color:#87ceeb;
+}
+/* subject 12 */
+.checkbox-bs-danger input[type="checkbox"][value="12"]:checked + label::before{
+  background:#8a2be2; border-color:#8a2be2;
+}
+.checkbox-danger input[type="checkbox"][value="12"]:checked + label::before{
+  background:#8a2be2; border-color:#8a2be2;
+}
+/* subject 13 */
+.checkbox-bs-danger input[type="checkbox"][value="13"]:checked + label::before{
+  background:#ff0000; border-color:#ff0000;
+}
+.checkbox-danger input[type="checkbox"][value="13"]:checked + label::before{
+  background:#ff0000; border-color:#ff0000;
+}
+/* subject 14 */
+.checkbox-bs-danger input[type="checkbox"][value="14"]:checked + label::before{
+  background:#0000cd; border-color:#0000cd;
+}
+.checkbox-danger input[type="checkbox"][value="14"]:checked + label::before{
+  background:#0000cd; border-color:#0000cd;
+}
+/* subject 15 */
+.checkbox-bs-danger input[type="checkbox"][value="15"]:checked + label::before{
+  background:#ffa500; border-color:#ffa500;
+}
+.checkbox-danger input[type="checkbox"][value="15"]:checked + label::before{
+  background:#ffa500; border-color:#ffa500;
+}

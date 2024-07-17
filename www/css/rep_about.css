@@ -1,0 +1,31 @@
+
+
+.about-tpbutton{
+  width:fit-content;
+  padding:1px;
+  font-size:10px;
+  color:black;
+  border:none;
+  background:transparent;
+  overflow:hidden;
+}
+
+.about-tpbutton:hover{
+  overflow:visible;
+  background:white;
+  position:absolute;
+  color:black;
+}
+.about-tpcontainer{
+  display:inline-block;
+}
+
+.about-infobutton{
+  width:fit-content;
+  font-size:10px;
+  height:100%;
+  padding:0;
+  color:black;
+  border:none;
+  background:transparent;
+}

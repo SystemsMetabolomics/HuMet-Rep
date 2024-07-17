@@ -1,0 +1,27 @@
+/* This css page provides all template design elements */
+
+
+/* general styles */
+
+.mtd_text{
+  font-family:Arial,Helvetica,sans-serif;
+}
+.mtd_text_red{
+  color:#d2310b !important;
+}
+
+/* header style */
+.mtd_logo{
+  background-color:  #2c323a !important;
+  font-weight:700 !important;
+  position:fixed !important;
+  border:none !important;
+}
+
+
+
+/* sidebar style */
+
+.mtd_sidebar{
+  background-color:#2c323e;
+}

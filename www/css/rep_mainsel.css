@@ -1,0 +1,12 @@
+.rep_design .rep_mainsel-container{
+  padding:10px 5px 5px 5px;
+  margin:0;
+  flex:1;
+  background:#2c323a;
+}
+
+#stats_ttest_volcano_highlight:hover ~ #rep_mainsel-container {
+    background: red;
+}
+
+

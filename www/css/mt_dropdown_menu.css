@@ -1,0 +1,80 @@
+/* The dropdown menu */
+.mt_dropdown-wrapper {
+  float: left;
+  overflow: hidden;
+  height:50px;
+}
+
+.mt_dropdown-body{
+  padding:5px 10px;
+  background-color:#efefef;
+  border-bottom:4px solid #a9a9a9;
+}
+
+
+/* Subnav button */
+.mt_dropdown-wrapper .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover .mt_dropdown-wrapper:hover .subnavbtn {
+  background-color: #efefef;
+}
+
+/* Style the subnav content - positioned absolute */
+.mt_dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Style the subnav links */
+.mt_dropdown-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.mt_dropdown-content a:hover {
+  background-color: #eee;
+  color: black;
+  border-bottom:2px #ddd solid;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+@media (min-width: 768px){
+    .mt_dropdown-wrapper:hover .mt_dropdown-content {
+      display: block;
+      position:fixed;
+      margin-left: 230px;
+      padding-right: 230px;
+    }
+    .sidebar-mini.sidebar-collapse .mt_dropdown-content{
+    margin-left:50px;
+    padding-right: 230px;
+    }
+}
+@media (max-width: 767px){
+      .mt_dropdown-wrapper:hover .mt_dropdown-content {
+      display: block;
+      position:fixed;
+      margin-left: 0;
+      padding-right: 0;
+    }
+    .sidebar-mini.sidebar-collapse .mt_dropdown-content{
+    margin-left:0;
+    padding-right: 0;
+    }
+}

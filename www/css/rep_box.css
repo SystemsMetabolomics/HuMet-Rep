@@ -1,0 +1,102 @@
+/* Box style */
+
+/* rep_box */
+.rep-design .box .box-solid{
+  display:flex;
+  flex-direction: column;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 20%);
+}
+
+.rep-design .box-header{
+  display:flex;
+  border-radius: 5px 5px 0 0;
+  padding:0;
+  border-bottom:2px solid grey;
+  background-color:#0B373B;
+  color:white;
+  min-height:45px;
+}
+
+.rep-design .box-header .box-header_button{
+  border:none;
+  height:45px; 
+  color:inherit;
+  float:left;
+}
+
+.rep-design .box-header .box-header_button:hover{
+  background:#274B63;
+  color:inherit;
+}
+
+.rep-design .box-title{
+  margin-top:auto; 
+  margin-bottom:auto;
+  margin-left:20px; 
+  flex:1;
+}
+
+.rep-design .box-body{
+flex:1;
+}
+
+.maximize{
+  position:fixed;
+  height:100% !important;
+  width:100% !important;
+  top:50px;
+  left:0;
+  z-index:2000;
+}
+
+/* header_button */
+.rep_box-header_content{
+    display:block;
+    height:inherit;
+    padding:5px;
+    float:right;
+  }
+  
+.rep_box-header_body{
+    display:block;
+    height:inherit;
+    float:right;
+  }
+  
+.rep_box-header_item{
+    padding:5px;
+    float:left;
+  }
+  
+
+
+.nav-tabs-custom>.nav-tabs>li.active:hover>a, .nav-tabs-custom>.nav-tabs>li.active>a{
+  background-color:none;
+}
+
+
+
+/* Box header title  */
+.rep_design .box-title{
+  flex:1;
+  padding:5px;
+}
+
+/* mt_box */
+
+  
+  
+.rep_box-header_item{
+    padding:5px;
+  }
+  
+
+
+/* showcase box*/
+
+.mt_box-sc_body{
+  border:1px solid #ddd;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 20%);
+}
+
+

@@ -1,0 +1,127 @@
+
+/* General */
+.rep_tooltip {
+  position: relative;
+  cursor:help;
+}
+.rep_tooltip .rep_tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  background-color: black;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  max-width:500px;
+}
+.rep_tooltip:hover .rep_tooltiptext {
+  visibility: visible;
+}
+
+.rep_button{
+  background-color:#f4f4f4;
+  font-size:14px;
+  color:black;
+  border:1px solid #ddd;
+  padding:6px 12px;
+  border-radius:5px;
+}
+
+.rep_button:focus{
+  background-color:#ddd;
+  color:#2c323a;
+  border-color:grey;
+    border-radius:5px;
+}
+
+.rep_button:hover{
+  background-color:#ddd;
+  color:#2c323a;
+    border-color:grey;
+      border-radius:5px;
+}
+
+/* Header */
+.mt_header .mt_dropdown-menu{
+  background:#2c323a;
+  color:white;
+  padding:5px;
+  border:1px solid #2c323a;
+}
+
+
+/* Home */
+.rep_header_stats{
+  display:inline-block;
+  padding:2px;
+  text-align:center;
+  font-weight:800;
+  margin:5px;
+  border-radius:5px;
+  color:white;
+}
+
+.rep_header_stats:hover{
+ color:grey;
+}
+
+
+/* Showcase */
+.rep_showcase_button{
+  height:100%;
+  overflow:hidden;
+  border-radius:5px;
+  display:flex; 
+  flex-direction:column;
+  padding:10px;
+  background:transparent;
+  border:none;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+}
+.rep_showcase_button:hover{
+  padding:5px;
+  background:transparent;
+}
+
+.rep_showcase_button-body{
+  border-radius:5px;
+  border: 1px solid black;
+  width:100%;
+  height:100%;
+    overflow:hidden;
+  white-space:initial;
+}
+
+.rep_showcase_button-back{
+  margin:5px 15px;
+  padding:3px 5px;
+}
+
+.rep_showcase_header-container{
+  border-radius:5px; margin: 10px 15px 10px 15px; padding:0; color:white; background: #2c323a;
+}
+.rep_showcase_header-title{
+  font-size:36px;display:block;
+}
+.rep_showcase_header-question{
+  font-size:30px;display:block;color:#d2310b;border-top:1px solid #d2310b;
+}
+
+.rep_showcase_header-img{
+  background:white;
+  margin:20px 0;
+  border-radius:10px 0 0 10px;
+  padding:10px;
+}
+
+.rep_link{
+color:#d2310b;
+}
+.rep_link:hover{
+color:darkred;
+}

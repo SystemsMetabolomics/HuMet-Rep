@@ -1,0 +1,186 @@
+/* home */
+
+
+/* sidebar */
+
+
+.btn-study_design{
+  height:20px;
+  width:100%;
+  padding:0 2px;
+  font-weight:bold;
+  text-align:center;
+  border-left:1px solid #d2310b;
+  border-right:1px solid #d2310b;
+   border-top:none;border-bottom:none;
+   background:transparent;
+   border-radius:0;
+   color:white;
+}
+
+
+@media (min-width: 768px){
+.sd-info_header{
+  display:block;
+  font-size:10px;
+  font-weight:500;
+  padding: 5px;
+}
+.sd-info_text{
+  display:block;
+  font-size:8px;
+  font-weight:500;
+  padding: 0 5px;
+}
+.sd-info_btn{
+  display:none;
+}
+}
+@media (max-width: 767px){
+  .sd-info_header{display:none}
+  .sd-info_text{display:none}
+  .sd-info_btn{
+  display:block;
+  padding:5px;
+  color:#d2310b;
+}
+}
+
+/* main selection */
+
+.form-group{
+  margin-bottom:0;
+}
+.selectize-control{
+  margin-bottom:0;
+}
+.selectize-input{
+  max-height:65px;
+  overflow-y:auto !important;
+}
+.selectize-control.multi .selectize-input > div.active{
+  background:#d2310b;
+}
+.selectize-input:focus{
+  border-color:black;
+}
+.irs-bar{
+  height:8px;
+  top:24px;
+  border-top: 1px solid #d2310b;
+  border-bottom: 1px solid #d2310b;
+  background: #d2310b;
+}
+.irs-grid-text{
+  color:transparent !important;
+}
+
+#class_net_slider .irs-bar{
+  height:8px;
+  top:24px;
+  border-top: transparent;
+  border-bottom: transparent;
+  background: transparent;
+}
+
+#class_net_slider .irs-bar-edge{
+  height:8px;
+  top:24px;
+  border-top: transparent;
+  border-bottom: transparent;
+  background: transparent;
+}
+.irs-from, .irs-to, .irs-single{
+  background:#d2310b;
+}
+/* main selection */
+
+.radio-bs-primary input[type="radio"]:checked + label::after{
+  background-color:#d2310b;
+}
+.radio-bs-primary input[type="radio"] + label::after{
+  background-color:#d2310b;
+}
+.radio-bs-primary input[type="radio"]:checked + label::before{
+ background-color:#FFFFF;
+ border-color:#d2310b;
+}
+.checkbox-bs-primary input[type="checkbox"]:checked + label::before, .checkbox-bs-primary input[type="radio"]:checked + label::before{
+  background-color:#d2310b;
+  border-color:#d2310b;
+}
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary{
+  background:#d2310b;
+}
+.pretty.p-icon input:checked~.state .icon{
+  color:#d2310b;
+}
+.btn-main_sel_clear{
+  background:white;
+  color:black;
+}
+.btn-main_sel_clear:hover{
+  background:ghostwhite;
+  color:black;
+}
+
+/* Study design */
+.btn-study_design:hover{
+  background-color:#d2310b;
+  color:white;
+  border-left:1px solid #d2310b;
+  border-right:1px solid #d2310b;
+}
+
+.btn-submenu_options{
+  color:black;
+  background:none;
+  box-shadow:none;
+  border:none;
+  border-radius:0;
+  border-top:2px solid transparent;
+}
+.btn-submenu_options.active, .btn-submenu_options:active{
+  border-top:2px solid #d2310b;
+  background:white;
+}
+.btn-submenu_options:hover{
+  background:ghostwhite;
+  color:darkgrey;
+}
+
+
+/* Browser selection */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning{
+  background:#d2310b;
+}
+
+/* navbar */
+
+.nav-tabs>li>a{
+  color:black;
+  border-radius:0;
+  padding:5px;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+  color:grey;
+}
+
+.pretty.p-default:not(.p-fill) input:checked~.state.p-danger-o label:after{
+  background-color:#d2310b;
+}
+.pretty input:checked~.state.p-danger-o label:before, .pretty.p-toggle .state.p-danger-o label:before{
+  border-color:#d2310b;
+}
+
+.well{
+  margin-bottom:0px;
+}
+
+.checkbox input[type=checkbox]:checked + label:after {
+	background:yellow;
+}
+
+.slider-animate-button{
+  opacity:1;
+}

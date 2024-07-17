@@ -1,0 +1,95 @@
+
+/* Amino Acid */
+.checkbox-bs-danger input[type="checkbox"][value="Amino Acids"]:checked + label::before{
+  background:#E41A1C; border-color:#E41A1C;
+}
+.checkbox-danger input[type="checkbox"][value="Amino Acids"]:checked + label::before{
+  background:#E41A1C; border-color:#E41A1C;
+}
+
+/* Xenobiotics */
+.checkbox-bs-danger input[type="checkbox"][value="Xenobiotics"]:checked + label::before{
+  background:#377EB8; border-color:#377EB8;
+}
+.checkbox-danger input[type="checkbox"][value="Xenobiotics"]:checked + label::before{
+  background:#377EB8; border-color:#377EB8;
+}
+
+
+/* Nucleotide */
+.checkbox-bs-danger input[type="checkbox"][value="Nucleotides"]:checked + label::before{
+  background:#4DAF4A; border-color:#4DAF4A;
+}
+.checkbox-danger input[type="checkbox"][value="Nucleotides"]:checked + label::before{
+  background:#4DAF4A; border-color:#4DAF4A;
+}
+
+/* Lipid */
+.checkbox-bs-danger input[type="checkbox"][value="Lipids"]:checked + label::before{
+  background:orange; border-color:orange;
+}
+.checkbox-danger input[type="checkbox"][value="Lipids"]:checked + label::before{
+  background:orange; border-color:orange;
+}
+
+/* Lipoproteins */
+.checkbox-bs-danger input[type="checkbox"][value="Lipoproteins"]:checked + label::before{
+  background:purple; border-color:purple;
+}
+.checkbox-danger input[type="checkbox"][value="Lipoproteins"]:checked + label::before{
+  background:purple; border-color:purple;
+}
+
+/* Energy */
+.checkbox-bs-danger input[type="checkbox"][value="Energy"]:checked + label::before{
+  background:#A65628; border-color:#A65628;
+}
+.checkbox-danger input[type="checkbox"][value="Energy"]:checked + label::before{
+  background:#A65628; border-color:#A65628;
+}
+
+
+/* Peptide */
+.checkbox-bs-danger input[type="checkbox"][value="Peptides"]:checked + label::before{
+  background:salmon; border-color:salmon;
+}
+.checkbox-danger input[type="checkbox"][value="Peptides"]:checked + label::before{
+  background:salmon; border-color:salmon;
+}
+/* Carbohydrate */
+.checkbox-bs-danger input[type="checkbox"][value="Carbohydrates"]:checked + label::before{
+  background:#999999; border-color:#999999;
+}
+.checkbox-danger input[type="checkbox"][value="Carbohydrates"]:checked + label::before{
+  background:#999999; border-color:#999999;
+}
+/*  Cofactors and Vitamins */
+.checkbox-bs-danger input[type="checkbox"][value="Cofactors and Vitamins"]:checked + label::before{
+  background:#984EA3; border-color:#984EA3;
+}
+.checkbox-danger input[type="checkbox"][value="Cofactors and Vitamins"]:checked + label::before{
+  background:#984EA3; border-color:#984EA3;
+}
+/*  NA */
+.checkbox-bs-danger input[type="checkbox"][value="NA"]:checked + label::before{
+  background:#bfbfbf; border-color:#bfbfbf;
+}
+.checkbox-danger input[type="checkbox"][value="NA"]:checked + label::before{
+  background:#bfbfbf; border-color:#bfbfbf;
+}
+
+/*  super */
+.checkbox-bs-danger input[type="checkbox"][value="super"]:checked + label::before{
+  background:grey; border-color:grey;
+}
+.checkbox-danger input[type="checkbox"][value="super"]:checked + label::before{
+  background:grey; border-color:grey;
+}
+/*  sub */
+.checkbox-bs-danger input[type="checkbox"][value="sub"]:checked + label::before{
+  background:grey; border-color:grey;
+}
+.checkbox-danger input[type="checkbox"][value="sub"]:checked + label::before{
+  background:grey; border-color:grey;
+}
+

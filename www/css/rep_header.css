@@ -1,0 +1,256 @@
+/* Header styles for the humet repository are collected here */
+
+/* bag system */
+.navbar-custom-menu{
+  height:50px;
+  float:left;
+  margin-left:10px;
+}
+.nav .navbar-nav{
+  margin:0;
+  height:50px;
+}
+
+.header_bag-container{
+  display:flex;
+}
+
+.header_bag-body{
+  display:inline-block
+}
+
+.header_bag-item{
+  height:50px;
+}
+
+/* bag_selector */
+.header_bag-btn{
+  position:relative;
+  color:grey;
+  background:transparent;
+  border:none;
+}
+.header_bag-btn:hover .header_bag-btn:focus .header_bag-btn:active{
+  color:white;
+}
+
+
+.header_bag-btn_active, .header_bag-btn_active:hover{
+  color:white;
+  background-color:#2c323a;
+  border-bottom: 1px solid #2c323a;
+  border-top:1px solid grey;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  border-radius:5px 5px 0 0;
+  top:2px;
+  height:50px;
+}
+
+.header_bag-button_select{
+  color:inherit;
+  background:transparent;
+  height:100%;
+  width:80px;
+  border:none;
+  font-size:18px;
+}
+
+.header_bag-button_select:hover, .header_bag-button_select:active, .header_bag-button_select:focus{
+  color:inherit;
+  background:transparent;
+}
+
+
+
+.header_bag-button_dropdown{
+  color:white;
+  background:#22242a;
+  border:none;
+  padding:1px;
+  position:absolute;
+  right:0;
+  bottom:0;
+  font-size:14px;
+}
+
+.header_bag-button_dropdown:hover{
+  display:block;
+  color:#d2310b;
+  background:#22242a;
+}
+
+/* bag_add */
+.header_bag-btn_add{
+  background:transparent;
+  border:none;
+  position:relative;
+  bottom:-3px;
+  color:grey;
+  font-size:18px;
+}
+
+.main-heder, .header_bag-btn_add:hover{
+  color:white;
+  border:none;
+  background-color:rgb(61, 72, 93);
+}
+
+/* new */
+.mt_nav_wrapper {
+  float: left;
+  overflow: hidden;
+  height:50px;
+}
+
+/* Hover dropdown */
+.skin-black-light .main-header .navbar .nav>li>a:hover{
+  background:transparent;
+  font-weight:700;
+}
+
+.awesome-checkbox{
+  padding-top:5px;
+}
+/* Set style dropdown*/
+.skin-black-light .main-header .navbar .navbar-custom-menu .navbar-nav>li>a, .skin-black-light .main-header .navbar .navbar-right>li>a{
+  color:#ddd;
+  font-weight:500;
+  padding: 2px 5px;
+  text-align:center;
+  height:50px;
+  border-left:1px solid #ddd;
+}
+
+.skin-black-light .main-header .navbar .nav .open>a, .skin-black-light .main-header .navbar .nav .open>a:focus, .skin-black-light .main-header .navbar .nav .open>a:hover, .skin-black-light .main-header .navbar .nav>.active>a, .skin-black-light .main-header .navbar .nav>li>a:active, .skin-black-light .main-header .navbar .nav>li>a:focus, .skin-black-light .main-header .navbar .nav>li>a:hover{
+  background:#2c323a;
+  color:white;
+  
+}
+
+/* Hover dropdown*/
+
+/* rmmmmmmmmmm */
+
+/* header bags */
+.mt_header_bag-body{
+  display:flex;
+  background:white;
+  height:100%;
+  float:left;
+  border-top:1px solid #ddd;
+  border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  padding:0 2px;
+  color:lightgrey;
+}
+
+.mt_header_bag-active{
+    height:43px;
+    border-top:3px solid #d2310b;
+    border-left:1px solid lightgrey;
+    border-right:1px solid lightgrey;
+    color:black;
+    background-color:#ddd;
+    float:left;
+    position:relative;
+    bottom:-1px;
+}
+.mt_header_bag-select{
+  height:100%;
+  background:transparent;
+  border:none;
+  padding:6px;
+}
+.mt_header_bag-rm{
+  height:fit-content;
+  background:transparent;
+  border:none;
+  padding:0;
+  border-radius:50%;
+  margin:auto 2px;
+  margin-bottom:auto;
+}
+
+
+/* header menu */
+@media (min-width: 1101px){
+  .mt_submenu-footer{
+    font-weight:bold;
+    font-size:10px;
+    overflow:hidden
+  }
+  
+}
+@media (max-width: 1100px){
+  .mt-bags_info{
+    display:none;
+  }
+  .mt_header_bag-rm{
+    display:none;
+}
+    .mt_submenu-footer{
+      display:none;
+  }
+}
+
+
+/* hide text of mt_dropdown-btn */
+@media (min-width: 1101px){
+  .mt_header-btn_small{
+    display:none;
+  }
+  .mt_header-btn_large{
+    display:block;
+    height:50px;
+  }
+}
+
+@media (max-width: 1100px){
+  .mt_header-btn_large{
+    display:none;
+  }
+  .mt_header-btn_small{
+      display:block;
+          height:50px;
+  }
+}
+
+
+
+.mt_submenu-body{
+  display:block;
+  float:left;
+  padding:0 5px;
+}
+
+
+/* something else */
+.btn-header_main{
+  border:1px solid black;
+  padding:0;
+  background:#ddd;
+}
+.btn-header_main.active{
+  border:1px solid red;
+  padding:0;
+  background:#ddd;
+}
+
+
+/* Header */
+
+.sidebar-mini.sidebar-collapse .main-header .logo{
+  font-size:14px;
+  font-weight:bold;
+}
+
+
+/* Navbar toggle */
+.skin-black-light .main-header .navbar>.sidebar-toggle{
+  color:white;
+}
+.skin-black-light .main-header .navbar .sidebar-toggle:hover{
+  color:white;
+  background:rgb(61, 72, 93);
+}

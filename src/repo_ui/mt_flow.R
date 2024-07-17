@@ -1,0 +1,19 @@
+mt_flow_item<-function(title, ... , title_width="200px",body_width="300px", info=NULL,info_width="200px"){
+  div(class="mt_flow_item-container",
+      div(
+        class="mt_flow_item-title",
+        style=paste0("width:",validateCssUnit(title_width)),
+        title
+      ),
+      div(
+        class="mt_flow_item-body",
+        style=paste0("width:",validateCssUnit(body_width)),
+        ...
+      ),
+      div(
+        class="mt_flow_item-info",
+        style=paste0("width:",validateCssUnit(info_width)),
+        p(paste0(info))
+      )
+  )
+}

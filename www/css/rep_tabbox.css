@@ -1,0 +1,135 @@
+/* Tabbox style */
+
+
+/* Tabbox nav */
+.rep_design .nav-tabs-custom{
+  background:white;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 20%);
+}
+
+
+.rep_design .nav-tabs-custom>.nav-tabs{
+  padding:5px 5px 0 5px;
+  border-bottom-color:grey;
+  background:#0B373B;
+  color:white;
+  font-size:18px;
+}
+.rep_design .nav-tabs-custom>.nav-tabs>li>a{
+  color:grey;
+}
+
+.rep_design .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  border-top:1px solid grey;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  border-bottom:none;
+    top:1px;
+  border-radius:5px 5px 0 0;
+  background-color:#274B63;
+  color:white !important;
+}
+
+.rep_design .nav-tabs-custom>.nav-tabs>li.active{
+  border-top:1px solid grey;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  border-bottom:3px solid #274B63;
+  border-radius:5px 5px 0 0;
+  top:1px;
+  background-color:#274B63;
+  color:white;
+}
+
+.rep_design .nav-tabs-custom>.nav-tabs>li.active:hover>a, .nav-tabs-custom>.nav-tabs>li.active>a{
+  background:transparent;
+  border:none;
+}
+
+.rep_design .nav-tabs-custom>.nav-tabs>li:not(.active)>a:active, .nav-tabs-custom>.nav-tabs>li:not(.active)>a:focus, .nav-tabs-custom>.nav-tabs>li:not(.active)>a:hover{
+  color:white;
+  background-color:none;
+}
+
+.rep_design .nav-tabs-custom>.tab-content{
+  padding:0;
+}
+
+
+
+/* Tabbox header */
+
+.rep_tabbox-header_buttons{
+  float:right !important;
+  height:35px;
+  border:none;
+  background:none;
+  color:white;
+}
+
+
+
+@media (min-width: 1025px){
+  .rep_boxopt-btn{
+    display:none;
+  }
+    .rep_boxopt-item{
+    display:flex;
+    float:left;
+    height:inherit;
+  }
+}
+@media (max-width: 1024px){
+  .rep_tabbox-header_button_item{
+    display:block;
+  }
+  
+  .rep_tabbox-header_button_container:hover{
+    background:#ddd;
+    color:black;
+  }
+  .rep_tabbox-header_button_container:hover .rep_tabbox-header_button_body {
+    display:block;
+    position:absolute;
+    background:#ddd;
+    float:none;
+    right:0;
+    padding:5px;
+    height:fit-content;
+    color:grey;
+  }
+  .rep_tabbox-header_button_body{
+    display:none;
+  }
+}
+
+/* Tabbox submenu */
+.rep_design .rep_tabbox_submenu-submenu{
+  background: #ddd;
+  font-size:12px;
+  padding: 10px 5px;
+  display:flex;
+}
+
+
+.rep_design .rep_tabbox_submenu-container{
+  margin:0;
+  background:#274B63;
+  color:white;
+}
+
+.rep_design .rep_tabbox_submenu-body{
+  display:block;
+  float:left;
+  width:max-content;
+  padding:5px;
+
+/* Tabbox content */
+.rep_design .rep_tabbox_submenu-content{
+  padding:5px;
+}
+
+
+
+
+

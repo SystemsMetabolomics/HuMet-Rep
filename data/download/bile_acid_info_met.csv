@@ -1,0 +1,20 @@
+﻿analyte;analyte description;unit;LOD;LOQ
+CA;cholic acid;µmol / l;5;12,5
+GCA;glycocholic acid;µmol / l;5;12,5
+TCA;taurocholic acid;µmol / l;5;12,5
+CDCA;chenodeoxycholic acid;µmol / l;7,5;12,5
+GCDCA;glycochenodeoxycholic acid;µmol / l;5;12,5
+TCDCA;taurochenodeoxycholic acid;µmol / l;5;12,5
+DCA;deoxycholic acid;µmol / l;5;12,5
+GDCA;glycodesoxycholic acid;µmol / l;5;12,5
+TDCA;taurodesoxycholic acid;µmol / l;5;12,5
+LCA;lithocholic acid;µmol / l;5;25
+GLCA;glycolithocholic acid;µmol / l;5;12,5
+TLCA;taurolithocholic acid;µmol / l;2,5;12,5
+UDCA;ursodesoxycholic acid;µmol / l;5;25
+GUDCA;glycoursodesoxycholic acid;µmol / l;5;12,5
+TUDCA;tauroursodesoxycholic acid;µmol / l;5;12,5
+total BA;total sum of determined bile acids;µmol / l;5;12,5
+measurement day;date of sample extraction and performance of LC-MS measurements;dd.mm.yyyy;;
+subject;subject id ;;;
+timepoint;timepoint id ;;;

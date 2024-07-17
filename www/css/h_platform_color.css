@@ -1,0 +1,69 @@
+
+/* Metabolon HD4 [P, nt-ms] */
+.checkbox-bs-danger input[type="checkbox"][value="Metabolon HD4"]:checked + label::before{
+  background:#E41A1C; border-color:#E41A1C;
+}
+.checkbox-danger input[type="checkbox"][value="Metabolon HD4"]:checked + label::before{
+  background:#E41A1C; border-color:#E41A1C;
+}
+/* Metabolon HD4 [U, nt-ms] */
+.checkbox-bs-danger input[type="checkbox"][value="[U, nt-ms]"]:checked + label::before{
+  background:#E69F02; border-color:#E69F02;
+}
+.checkbox-danger input[type="checkbox"][value="[U, nt-ms]"]:checked + label::before{
+  background:#E69F02; border-color:#E69F02;
+}
+/* Lipidyzer [Lipidyzer, nt-ms] */
+.checkbox-bs-danger input[type="checkbox"][value="[P, lipidizer]"]:checked + label::before{
+  background:#339E73; border-color:#339E73;
+}
+.checkbox-danger input[type="checkbox"][value="[P, lipidizer]"]:checked + label::before{
+  background:#339E73; border-color:#339E73;
+}
+
+/* Biocrates p150 [t-ms] */
+.checkbox-bs-danger input[type="checkbox"][value="Biocrates p150"]:checked + label::before{
+  background:#377EB8; border-color:#377EB8;
+}
+.checkbox-danger input[type="checkbox"][value="Biocrates p150"]:checked + label::before{
+  background:#377EB8; border-color:#377EB8;
+}
+
+/*  numares (Lipofit) [NMR]*/
+.checkbox-bs-danger input[type="checkbox"][value="[P, NMR]"]:checked + label::before{
+  background:#57B4E9; border-color:#57B4E9;
+}
+.checkbox-danger input[type="checkbox"][value="[P, NMR]"]:checked + label::before{
+  background:#57B4E9; border-color:#57B4E9;
+}
+/*  In-house biochemistry [chem.]*/
+.checkbox-bs-danger input[type="checkbox"][value="Biochemistry"]:checked + label::before{
+  background:#4DAF4A; border-color:#4DAF4A;
+}
+.checkbox-danger input[type="checkbox"][value="Biochemistry"]:checked + label::before{
+  background:#4DAF4A; border-color:#4DAF4A;
+}
+
+/* Chenomx [NMR]*/
+.checkbox-bs-danger input[type="checkbox"][value="[U, NMR]"]:checked + label::before{
+  background:#F0E442; border-color:#F0E442;
+}
+.checkbox-danger input[type="checkbox"][value="[U, NMR]"]:checked + label::before{
+  background:#F0E442; border-color:#F0E442;
+}
+
+/* In-house PTR-MS [PTRMS]*/
+.checkbox-bs-danger input[type="checkbox"][value="[BA, PTRMS]"]:checked + label::before{
+  background:#1D72B2; border-color:#1D72B2;
+}
+.checkbox-danger input[type="checkbox"][value="[BA, PTRMS]"]:checked + label::before{
+  background:#1D72B2; border-color:#1D72B2;
+}
+
+/* In-house FTICR-MS [ICR] */
+.checkbox-bs-danger input[type="checkbox"][value="[BC, ICR]"]:checked + label::before{
+  background:#A9D18E; border-color:#A9D18E;
+}
+.checkbox-danger input[type="checkbox"][value="[BC, ICR]"]:checked + label::before{
+  background:#A9D18E; border-color:#A9D18E;
+}

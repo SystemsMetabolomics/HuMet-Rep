@@ -1,0 +1,13 @@
+.content-wrapper{
+  margin-top:49px;
+  background-color:ghostwhite;}
+  
+  
+  .content{
+  padding:0 15px;
+  background-color:ghostwhite;}
+  
+  
+  .bootstrap-switch.bootstrap-switch-focused{
+    border-color:black;
+  }

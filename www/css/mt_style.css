@@ -1,0 +1,66 @@
+/* general infos */
+
+/* search bar */
+.mt_search-bar{
+  border-radius:5px 0 0 5px;
+  background-color:white;
+  border-left:1px solid #c2c2c2;
+  border-top:1px solid #c2c2c2;
+  border-bottom:1px solid #c2c2c2;
+}
+.mt_search-submit{
+  background-color:white;
+  border-color:#c2c2c2;
+  border-radius:0 5px 5px 0;
+}
+
+
+/* ui elements */
+.mt_info-text{
+  font-size:10px;
+  font-weight:bold;
+}
+
+/* submenu */
+
+.mt_submenu_picker{
+  border-radius:5px;
+  background-color:white;
+  border:1px solid #c2c2c2;
+}
+
+
+/* flow items */
+
+.mt_flow_item-container{
+  display:flex;
+  margin:5px;
+  padding:5px;
+  width:max-content;
+}
+
+.mt_flow_item-title{
+  display:flex;
+  padding:5px;
+  margin:auto 0;
+  width:max-content;
+  font-size:14px;
+  font-weight:700;
+}
+.mt_flow_item-info{
+  display:flex;
+  padding:5px;
+  margin:auto 0;
+  width:max-content;
+  font-size:12px;
+  font-weight:400;
+}
+
+.mt_flow_item-body{
+  display:flex;
+  padding:5px;
+  width:max-content;
+    background:white;
+  border-radius:5px;
+  border:1px solid darkgrey;
+}

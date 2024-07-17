@@ -1,0 +1,240 @@
+
+/* Header */
+
+.sidebar-mini.sidebar-collapse .main-header .logo{
+  font-size:14px;
+  font-weight:bold;
+}
+
+
+.main-header .sidebar-toggle{
+  display:none;
+}
+
+.mt_header-title .dropdown-toggle:hover{
+  background:transparent;
+  color:#d2310b;
+}
+
+.skin-black .main-header .navbar .nav .open>a, .skin-black .main-header .navbar .nav .open>a:focus, .skin-black .main-header .navbar .nav .open>a:hover, .skin-black .main-header .navbar .nav>.active>a, .skin-black .main-header .navbar .nav>li>a:active, .skin-black .main-header .navbar .nav>li>a:focus, .skin-black .main-header .navbar .nav>li>a:hover {
+  background:lightgrey;
+  color: #d2310b;
+}
+/* Styles for mt_headers are collected here */
+
+/* Navbar top*/
+.navbar-custom-menu{
+  height:50px;
+}
+
+/* Navbar toggle */
+.skin-black-light .main-header .navbar>.sidebar-toggle{
+  color:white;
+}
+.skin-black-light .main-header .navbar .sidebar-toggle:hover{
+  color:white;
+  background:rgb(61, 72, 93);
+}
+
+/* bag_selector */
+.btn-bagsel{
+  border-radius:5px 5px 0 0;
+  background-color: rgba(44, 50, 62, 0.07);
+  border-color: #3d485d;
+  border-bottom:none;
+  top:7.5px;
+  position:relative;
+  color:grey;
+}
+.btn-bagsel:hover .btn-bagsel:focus{
+  color:black;
+  border-color: grey;
+  background-color:#ddd;
+  border-bottom: 3px solid transparent;
+  border-top:2px solid #d2310b;
+}
+.main-heder, .btn-bagsel:hover{
+  color:white;
+  border-color: grey;
+  background-color:rgb(61, 72, 93);
+  border-bottom: 3px solid transparent;
+  border-top:2px solid #d2310b;
+}
+
+.main-heder,.btn-bagsel-active{
+  color:white;
+  border-color: grey;
+  background-color:#505b6b;
+  border-bottom: 1px solid #505b6b;
+  border-top:2px solid #d2310b;
+}
+
+.main-heder, .btn-bagsel-active:hover{
+  color:black;
+  border-color: white;
+  background-color:#505b6b;
+  border-bottom: 1px solid transparent;
+  border-top:2px solid #d2310b;
+}
+
+/* bag_add */
+.main-heder, .btn-bagadd{
+  background:transparent;
+  border:none;
+  position:relative;
+  bottom:-6px;
+  color:grey;
+}
+
+.main-heder, .btn-bagadd:hover{
+  color:white;
+  border:none;
+  background-color:rgb(61, 72, 93);
+}
+
+/* new */
+.mt_nav_wrapper {
+  float: left;
+  overflow: hidden;
+  height:50px;
+}
+
+/* Hover dropdown */
+.skin-black-light .main-header .navbar .nav>li>a:hover{
+  background:transparent;
+  font-weight:700;
+}
+/* Set style dropdown*/
+.skin-black-light .main-header .navbar .navbar-custom-menu .navbar-nav>li>a, .skin-black-light .main-header .navbar .navbar-right>li>a{
+  color:#ddd;
+  font-weight:500;
+  padding: 2px 5px;
+  text-align:center;
+  height:48px;
+  border-left:1px solid #ddd;
+}
+
+.skin-black-light .main-header .navbar .nav .open>a, .skin-black-light .main-header .navbar .nav .open>a:focus, .skin-black-light .main-header .navbar .nav .open>a:hover, .skin-black-light .main-header .navbar .nav>.active>a, .skin-black-light .main-header .navbar .nav>li>a:active, .skin-black-light .main-header .navbar .nav>li>a:focus, .skin-black-light .main-header .navbar .nav>li>a:hover{
+  background:#ddd;
+  color:black;
+  
+}
+
+/* Hover dropdown*/
+
+/* rmmmmmmmmmm */
+
+/* header bags */
+.mt_header_bag-body{
+  display:flex;
+  background:white;
+  height:100%;
+  float:left;
+  border-top:1px solid #ddd;
+  border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  padding:0 2px;
+  color:lightgrey;
+}
+
+.mt_header_bag-active{
+    height:43px;
+    border-top:3px solid #d2310b;
+    border-left:1px solid lightgrey;
+    border-right:1px solid lightgrey;
+    color:black;
+    background-color:#ddd;
+    float:left;
+    position:relative;
+    bottom:-1px;
+}
+.mt_header_bag-select{
+  height:100%;
+  background:transparent;
+  border:none;
+  padding:6px;
+}
+.mt_header_bag-rm{
+  height:fit-content;
+  background:transparent;
+  border:none;
+  padding:0;
+  border-radius:50%;
+  margin:auto 2px;
+  margin-bottom:auto;
+}
+
+
+/* header menu */
+@media (min-width: 1101px){
+  .mt_submenu-footer{
+    font-weight:bold;
+    font-size:10px;
+    overflow:hidden
+  }
+  
+}
+@media (max-width: 1100px){
+  .mt-bags_info{
+    display:none;
+  }
+  .mt_header_bag-rm{
+    display:none;
+}
+    .mt_submenu-footer{
+      display:none;
+  }
+}
+
+
+/* hide text of mt_dropdown-btn */
+@media (min-width: 1101px){
+  .mt_header-btn_small{
+    display:none;
+  }
+  .mt_header-btn_large{
+    display:block;
+    height:48px;
+  }
+}
+
+@media (max-width: 1100px){
+  .mt_header-btn_large{
+    display:none;
+  }
+  .mt_header-btn_small{
+      display:block;
+          height:48px;
+  }
+}
+
+
+
+.mt_submenu-body{
+  display:block;
+  float:left;
+  padding:0 5px;
+}
+
+
+/* something else */
+.btn-header_main{
+  border:1px solid black;
+  padding:0;
+  background:#ddd;
+}
+.btn-header_main.active{
+  border:1px solid red;
+  padding:0;
+  background:#ddd;
+}
+
+.shiny-options-group{
+  margin-top:8px;
+}
+.shiny-input-checkboxgroup label~.shiny-options-group, .shiny-input-radiogroup label~.shiny-options-group{
+  margin-top:6px;
+}
+.awesome-checkbox{
+  padding-top:2.8px;
+}

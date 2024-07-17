@@ -1,0 +1,36 @@
+﻿Putative exposure;Frechét distance;Metabolite name;label;id;Super-pathway;Sub-pathway;Fluid;Platform;Hits in FooDB;Food ingredient FooDB;Potential food ingredient FooDB;FooDB ID;Hits in Exposome Explorer;Food ingredient Exposome Explorer;Exposome Explorer ID;Comments
+Meat;0;3-methylhistidine;1090614;3-methylhistidine [P, nt-ms];Amino Acid;Histidine Metabolism;Plasma;Metabolon HD4;;;;FDB021798;36;"red meat; fish; fish + meat; proteins";539;
+Garlic/Onion;0,2712;S-allylcysteine;1091011;S-allylcysteine [P, nt-ms];Xenobiotics;Food Component/Plant;Plasma;Metabolon HD4;2;"onion-family vegetables; garlic";;FDB012675;;;;
+Garlic/Onion;0,2736;N-acetylalliin;1090911;N-acetylalliin [P, nt-ms];Xenobiotics;Food Component/Plant;Plasma;Metabolon HD4;29;;mainly meat;FDB022231;;;;Derivative of alliin (FDB000558)
+Chemicals/Drugs;0,3716;ectoine;2091187;ectoine [U, nt-ms];Xenobiotics;Chemical;Urine;Metabolon HD4;;;;;;;;
+Meat;0,3747;3-methylhistidine;2090614;3-methylhistidine [U, nt-ms];Amino Acid;Histidine Metabolism;Urine;Metabolon HD4;;;;FDB021798;36;"red meat; fish; fish + meat; proteins";539;
+Garlic/Onion;0,3752;alliin;1090684;alliin [P, nt-ms];Xenobiotics;Food Component/Plant;Plasma;Metabolon HD4;461;garlic;;FDB000558;;;;
+Garlic/Onion;0,3854;N-acetyl-S-allyl-L-cysteine;2090932;N-acetyl-S-allyl-L-cysteine [U, nt-ms];Xenobiotics;Food Component/Plant;Urine;Metabolon HD4;7;"garlic; onion";;FDB012675;;;;
+Bread;0,3993;2-aminophenol sulfate;2090554;2-aminophenol sulfate [U, nt-ms];Xenobiotics;Chemical;Urine;Metabolon HD4;0;;;FDB093593;2;"white bread; whole-grain bread";1586;
+Chemicals/Drugs;0,4341;succinimide;2091280;succinimide [U, nt-ms];Xenobiotics;Chemical;Urine;Metabolon HD4;;;;;;;;
+Meat;0,4568;trans-4-hydroxyproline;1091053;trans-4-hydroxyproline [P, nt-ms];Amino Acid;"Urea cycle; Arginine and Proline Metabolism";Plasma;Metabolon HD4;74;;multiple items;FDB013511;3;"beef; meat; processed meat";1692;
+Meat;0,4586;N-acetyl-3-methylhistidine;2090909;N-acetyl-3-methylhistidine* [U, nt-ms];Amino Acid;Histidine Metabolism;Urine;Metabolon HD4;;;;;;;;Derivative of 3-methylhistidine (FDB021798)
+Meat;0,4588;1-methylhistidine;1090524;1-methylhistidine [P, nt-ms];Amino Acid;Histidine Metabolism;Plasma;Metabolon HD4;;;;FDB012119;36;"red meat; poultry; fish; fish + meat";538;
+Chemicals/Drugs;0,468;2-acetamidophenol sulfate;2091083;2-acetamidophenol sulfate [U, nt-ms];Xenobiotics;Drug;Urine;Metabolon HD4;;;;;;;;
+Other;0,4967;2-aminoheptanoate;1090552;2-aminoheptanoate [P, nt-ms];Lipid;Fatty Acid, Amino;Plasma;Metabolon HD4;;;;;;;;
+Garlic/Onion;0,5003;alliin;2090684;alliin [U, nt-ms];Xenobiotics;Food Component/Plant;Urine;Metabolon HD4;;;;FDB000558;;;;
+Coffee;0,5273;1-methylxanthine;2090528;1-methylxanthine [U, nt-ms];Xenobiotics;Xanthine Metabolism;Urine;Metabolon HD4 [nt-ms];543;;multiple items;FDB027885;6;Coffee;;
+Other;0,5302;4-hydroxypyridine;2091141;4-hydroxypyridine [U, nt-ms];Xenobiotics;Chemical;Urine;Metabolon HD4 [nt-ms];29;;mainly meat;FDB112195;;;;
+Other;0,5415;2-myristoyl-GPC (14:0)*;1090574;2-myristoyl-GPC (14:0)* [P, nt-ms];Lipids;Lysolipid;Plasma;Metabolon HD4 [nt-ms];;;;;;;;
+Coffee;0,5462;3-hydroxyhippurate;2090598;3-hydroxyhippurate [U, nt-ms];Xenobiotics;Benzoate Metabolism;Urine;Metabolon HD4 [nt-ms];29;;;FDB023830;1;Coffee;1550;Reduced by antibiotics
+Coffee;0,5469;paraxanthine;2090969;paraxanthine [U, nt-ms];Xenobiotics;Xanthine Metabolism;Urine;Metabolon HD4 [nt-ms];543;;multiple items;FDB022714;6;Caffeine/Coffee;566;
+Other;0,549;N-carbamoylalanine;2091239;N-carbamoylalanine [U, nt-ms];Amino Acids;Alanine and Aspartate Metabolism;Urine;Metabolon HD4 [nt-ms];;;;;;;;
+Coffee;0,5522;trigonelline (N'-methylnicotinate);1091055;trigonelline (N'-methylnicotinate) [P, nt-ms];Cofactors and Vitamins;Nicotinate and Nicotinamide Metabolism;Plasma;Metabolon HD4;88;"coffee products; cereal";;FDB002237;5;coffee;1582;
+Other;0,5524;2-hydroxyhippurate (salicylurate);2091090;2-hydroxyhippurate (salicylurate) [U, nt-ms];Xenobiotics;Benzoate Metabolism;Urine;Metabolon HD4 [nt-ms];30;;mainly meat;FDB010505;0;;1846;associated wich Escherichia coli
+Other;0,5535;4-acetamidophenylglucuronide;2090621;4-acetamidophenylglucuronide [U, nt-ms];Xenobiotics;Drug;Urine;Metabolon HD4 [nt-ms];29;;mainly meat;FDB027468;;;;
+Other;0,5644;indolepropionate;1090853;indolepropionate [P, nt-ms];Amino Acids;Tryptophan Metabolism;Plasma;Metabolon HD4 [nt-ms];30;;mainly meat;FDB000941;0;;1690;Produced by human fecal bacteria
+Other;0,5772;PC aa C32:2;1010085;PC aa C32:2 [P, t-ms];Lipids;Diacylphosphatidylcholines;Plasma;Biocrates p150 [t-ms];;;;;;;;
+Other;0,5781;N-methylhydantoin;2091248;N-methylhydantoin [U, nt-ms];Amino Acids;Creatine Metabolism;Urine;Metabolon HD4 [nt-ms];30;;mainly meat;FDB023209;;;;
+Milk;0,5805;glucosaminate;2091199;glucosaminate [U, nt-ms];Carbohydrates;Aminosugar Metabolism;Urine;Metabolon HD4 [nt-ms];39;"milk (cow); carrot";;FDB022668;;;;
+Coffee;0,5812;hippurate;1090835;hippurate [P, nt-ms];Xenobiotics;Benzoate Metabolism;Plasma;Metabolon HD4 [nt-ms];32;;mainly grains;FDB001819;4;"fruits + vegetables; coffee; berries";110;
+Milk;0,5814;O-acetylhomoserine;1090951;O-acetylhomoserine [P, nt-ms];Amino Acid;Glycine, Serine and Threonine Metabolism;Plasma;Metabolon HD4;2;"milk (cow); common pea";;FDB000523;;;;
+Bread;0,5816;2-aminophenol sulfate;1090554;2-aminophenol sulfate [P, nt-ms];Xenobiotics;Chemical;Plasma;Metabolon HD4;0;;;FDB093593;2;"white bread; whole-grain bread";1586;
+Meat;0,5883;N-acetyl-3-methylhistidine;1090909;N-acetyl-3-methylhistidine* [P, nt-ms];Amino Acid;Histidine Metabolism;Plasma;Metabolon HD4;;;;;;;;Derivative of 3-methylhistidine (FDB021798)
+Coffee;0,5889;trigonelline (N'-methylnicotinate);2091055;trigonelline (N'-methylnicotinate) [U, nt-ms];Cofactors and Vitamins;Nicotinate and Nicotinamide Metabolism;Urine;Metabolon HD4;88;"coffee products; cereal";;FDB002237;5;coffee;1582;
+Soy;0,5906;equol glucuronide;1090767;equol glucuronide [P, nt-ms];Xenobiotics;Food Component/Plant;Plasma;Metabolon HD4;;;;;;;;"Derivative of equol (FDB021824), which is assosiated to soy intake (depending on microbiome composition); metabolite detected in only 2 participants"
+Other;0,5909;lysoPC a C14:0;1010149;lysoPC a C14:0 [P, t-ms];Lipids;Lysolipid;Plasma;Biocrates p150;29;;mainly meat;FDB027530;;;;

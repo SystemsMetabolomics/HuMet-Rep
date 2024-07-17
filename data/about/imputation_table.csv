@@ -1,0 +1,10 @@
+﻿Medium ;Platform;Number of metabolites;Number of non-imputed metabolites (>30% missingness)
+Plasma;Metabolon HD4;595;102
+;Lipidyzer;965;146
+;Biocrates p15;132;3
+;numares (LipoFIT);28;0
+;In house Biochemistry;4;1
+Urine;Metabolon HD4;619;25
+;Chenomx;6;0
+Breath air;In-house PTR-MS;106;106
+Breath condensate;In-house FTICR-MS;201;0
